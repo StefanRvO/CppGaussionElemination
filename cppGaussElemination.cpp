@@ -92,7 +92,7 @@ void zerofunc(double Matrix[][size_y],int Width,int Height) {
     }
 int main() {
 srand(time(NULL));
-//double Matrix[5][6]={{1,2,3,4,5,7},{7,6,7,8,9,1},{2,3,3,4,5,6},{7,8,9,1,5,2},{3,4,5,8,6,7}};
+//double Matrix[5][6]={{1,2,3,4,5,7},{2,4,6,8,10,14},{2,3,3,4,5,6},{7,8,9,1,5,2},{3,4,5,8,6,7}};
 double Matrix[ARRAYSIZE][ARRAYSIZE+1]={0};
 for(int i=0;i<ARRAYSIZE;i++) {
     for(int j=0;j<ARRAYSIZE+1;j++) {
